@@ -1,0 +1,51 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1521504671289-f8de38c4dc18?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-left{
+    float: left;
+    height: 100% !important;
+}
+
+.container-right{
+    
+    float: right;
+    margin-top: 0rem;
+    text-align: center;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.result-name{
+    font-size: 3rem;
+}
+
+.card{
+    background-color: #2178fa;
+    color: white !important;
+    border: 2rem;
+}
+
+.low{
+    background-color: green;
+    color: black;
+}
+
+.moderate{
+    background-color: yellow;
+    color: black;
+}
+
+.high{
+    background-color: orange;
+    color: black;
+}
+
+.very-high{
+    background-color: red;
+    color: black;
+}
+
+

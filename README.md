@@ -1,2 +1,3 @@
-# Weather-Dashboard
-Weather App to use the Openweather API
+Weather Dashboard:
+
+Created weather dashboard with Openweather API, HTML5, CSS, Bootstrap, and JavaScript.

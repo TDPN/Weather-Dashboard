@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Image and text -->
+    <nav class="navbar bg-dark ">
+        <h1 class="navbar-brand mx-auto logo" style="color: white;">Weather Dashboard App</h1>
+    </nav>
+
+    <div class="container container-left col-3">
+        <div class="input-group  mb-3">
+            <input type="text" class="form-control" id="city-input" placeholder="search for a city" aria-label="Recipient's username"
+                aria-describedby="button-addon2">
+            <div class="input-group-append">
+                <button class="btn btn-primary" type="button" id="button-addon2">🔎</button>
+            </div>
+            <div id="buttons-view"></div>
+        </div>
+    </div>
+   
+
+    <div class="container container-right col-8">
+        <div class="block border mx-auto" >
+            <h3 class="result-name mx-auto" id="result-name">Right Now</h3>
+            <img class="result-icon" id="result-icon"></img>
+            <div id="date-name"></div>
+            <div class="result-temp" id="result-temp"></div>
+            <div class="result-humidity" id="result-humidity"></div>
+            <div class="result-wind-speed" id="result-wind-speed"></div>
+            <div class="result-uv-index" id="result-uv-index"></div>
+        </div>
+
+        <h3>5-Day Forcast:</h3>
+        <div class="row">
+            <div class="card mx-auto" style="width: 10rem;">
+                <div class="card-body">
+                  <h5 class="card-title" id="day1date">Today</h5>
+                  <img class="day1Icon" id="day1Icon"></img>
+                  <p class="card-text" id="day1Temp"></p>
+                  <p class="card-text" id="day1Humidity"></p>
+                  
+                </div>
+              </div>
+              <div class="card mx-auto" style="width: 10rem;">
+                <div class="card-body">
+                  <h5 class="card-title" id="day2date">Tomorrow</h5>
+                  <img class="card-subtitle mb-2 text-muted" id="day2Icon"></img>
+                  <p class="card-text" id="day2Temp"></p>
+                  <p class="card-text" id="day2Humidity"></p>
+                  
+                </div>
+              </div>
+              <div class="card mx-auto" style="width: 10rem;">
+                <div class="card-body">
+                  <h5 class="card-title" id="day3date">Third Day</h5>
+                  <img class="card-subtitle mb-2 text-muted" id="day3Icon"></img>
+                  <p class="card-text" id="day3Temp"></p>
+                  <p class="card-text" id="day3Humidity"></p>
+                  
+                </div>
+              </div>
+              <div class="card mx-auto" style="width: 10rem;">
+                <div class="card-body">
+                  <h5 class="card-title" id="day4date">Fourth Day</h5>
+                  <img class="card-subtitle mb-2 text-muted" id="day4Icon"></img>
+                  <p class="card-text" id="day4Temp"></p>
+                  <p class="card-text" id="day4Humidity"></p>
+                  
+                </div>
+              </div>
+              <div class="card mx-auto" style="width: 10rem;">
+                <div class="card-body">
+                  <h5 class="card-title" id="day5date">Fifth day</h5>
+                  <img class="card-subtitle mb-2 text-muted" id="day5Icon"></img>
+                  <p class="card-text" id="day5Temp"></p>
+                  <p class="card-text" id="day5Humidity"></p>
+                  
+                </div>
+              </div>
+              
+              
+        </div>
+    </div>
+
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.js"integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
