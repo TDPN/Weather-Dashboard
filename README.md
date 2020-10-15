@@ -1,7 +1,3 @@
-:
-
-Created weather dashboard with Openweather API, HTML5, CSS, Bootstrap, and JavaScript.
-
 # Project Title
 Weather Dashboard
 
